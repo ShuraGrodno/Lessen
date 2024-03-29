@@ -10,9 +10,9 @@ class main():
         self.root.title('Бинарный поиск')
         self.frameSerchList = Frame(borderwidth = 2,    #Толщина граници фрейма
                                     relief = RAISED,    #Определяет тип граници (SUNKEN, REISED, GROOVE, RIDGE)
-                                    cursor = 'clock'    #Вид курсора при навидении на фрейм
-                                    height =            #Высата фрейма
-                                    width =             #Ширина фрейма
+                                    cursor = 'clock',   #Вид курсора при навидении на фрейм
+                                    height = 100        #Высата фрейма
+                                    width = 100         #Ширина фрейма
                                     padding = [10]      #Отступы от границ фрейма (может быть от 1 до 4 значений [10, 20, 15, 20])
                                     )
         

@@ -11,8 +11,8 @@ class main():
         self.frameSerchList = Frame(borderwidth = 2,    #Толщина граници фрейма
                                     relief = RAISED,    #Определяет тип граници (SUNKEN, REISED, GROOVE, RIDGE)
                                     cursor = 'clock',   #Вид курсора при навидении на фрейм
-                                    height = 100,        #Высата фрейма
-                                    width = 100,         #Ширина фрейма
+                                    height = 100,       #Высата фрейма
+                                    width = 100,        #Ширина фрейма
                                     padding = [10]      #Отступы от границ фрейма (может быть от 1 до 4 значений [10, 20, 15, 20])
                                     )
         
